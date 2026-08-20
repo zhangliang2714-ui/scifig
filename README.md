@@ -1,10 +1,12 @@
 # 科研机制图重构 Skill
 
-`scientific-schematic-reconstruction` 是一个用于重构、优化和扩展科研机制图、项目申请书技术路线图及多尺度材料示意图的 Codex Skill。
+`scientific-schematic-reconstruction` 是一个将 AI 生成图片、参考图片或已有科研示意图，拆解并使用 Blender、SVG 和 Python 等工具进行科学化重构的 Codex Skill。它把不可编辑、结构不严谨或比例不适合项目书的 AI 图片，转换为可解释、可编辑、可复现的科研机制图。
 
 ## 适用场景
 
 - 根据参考图片或 SVG 重构科研机制图；
+- 将 AI 生成的科研图片拆解为可重构的结构、流程和图形资产；
+- 使用 Blender 补充晶粒、纤维、节点、烧结颈和第二相等三维模型；
 - 将复杂总图拆分为多个科学语义区域；
 - 判断哪些区域适合 SVG，哪些区域需要 Blender 三维建模；
 - 重构纤维、晶粒、配位网络、局域有序、第二相、孔隙、界面和裂纹等结构；
@@ -19,6 +21,8 @@
 ```text
 使用 $scientific-schematic-reconstruction 重构这张科研机制图。
 ```
+
+典型任务是：提供一张 AI 生成的科研图片，要求 Skill 先分析图片中的科学区域，判断哪些部分用 SVG 重画、哪些部分用 Blender 建模，再将各部分重新组合成项目书风格的可编辑 SVG。
 
 也可以直接描述任务，例如：
 
