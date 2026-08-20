@@ -32,6 +32,8 @@ description: Reconstruct, revise, or extend scientific mechanism schematics and 
 
 完整的区域判型、Blender/SVG分工和嵌入流程见 [references/workflow.md](references/workflow.md)。
 
+需要进行三维结构重构时，必须同时读取 [references/blender-reconstruction.md](references/blender-reconstruction.md)，不能仅凭默认几何体和随机分布生成模型。
+
 ## 工具选择
 
 - **SVG**：文字、箭头、流程框、二维网络、简单纤维、裂纹、界面、孔隙符号、坐标轴和图例。
@@ -41,6 +43,8 @@ description: Reconstruct, revise, or extend scientific mechanism schematics and 
 - **现有图像**：显微照片和实验装置照片只做全局裁切、亮度或对比度调整，不伪造局部结构。
 
 不要为了“显得高级”而使用Blender。二维形状能清楚表达的内容优先保留为SVG。
+
+Blender模型必须采用固定相机、固定光照和固定随机种子；先匹配参考图外轮廓和主方向，再增加内部结构。每个模型先独立渲染，并与参考图进行透明度叠加检查，通过后才能嵌入总图。
 
 ## 科学表达约束
 

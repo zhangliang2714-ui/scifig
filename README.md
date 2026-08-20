@@ -80,3 +80,5 @@
 - 默认不覆盖原文件，每轮修改保留新版本。
 
 详细流程见 [`references/workflow.md`](references/workflow.md)，失误复盘与验收标准见 [`references/qa-and-pitfalls.md`](references/qa-and-pitfalls.md)。
+
+三维重构的参数化建模、相机匹配、确定性随机和参考图叠加对照见 [`references/blender-reconstruction.md`](references/blender-reconstruction.md)。
