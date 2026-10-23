@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研机制图重构"
+  short_description: "拆分、建模并重构SVG与Blender科研项目机制图"
+  default_prompt: "使用 $scientific-schematic-reconstruction 先拆分参考科研图并规划SVG与Blender分工，再逐区重构、嵌入和验收。"

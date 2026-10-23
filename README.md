@@ -1,4 +1,25 @@
-# 科研机制图重构 Skill
+# 统一科研绘图 Skill
+
+本仓库现以 `scientific-figure-studio` 为统一入口，支持科研数据图、参考论文图的版式学习、SVG/Blender 机制图重构及混合多面板图。仓库地址保持不变。
+
+```text
+使用 $scientific-figure-studio 根据这些数据绘图，或先测量参考图再重构版式。
+```
+
+安装时将仓库目录命名为 `scientific-figure-studio`，放入 Codex 的 skills 目录。已有旧版安装请更新入口名称。原机制图功能保留在 `modules/scientific-schematic-reconstruction/`，其余模块负责数据分析与选图、出版级绘图和本地数据图工具。
+
+## 2026-10-23 更新
+
+- 默认只保留小图面板编号，不添加 “Independent samples”等顶部描述性标题；保留坐标、单位、图例及必要统计说明。
+- 间距按渲染后的文字边界校准；九宫格尺寸作为参考案例，不是固定模板。
+- 参考图先完整裁切再测量，统一原图坐标系；区分绘图区、完整面板、字形高度和字体字号。
+- 修正先前 B/D/E/F 图框宽高比测量错误，记录来源与近似范围。
+- 模拟数据预览与导出均带 `DEMO · SYNTHETIC DATA` 水印，保留随机种子及误差定义。
+- 导出后检查文字裁切、内部重叠、数学字体、灰度可辨性和水印位置。
+
+详细规则见 [用户确认的绘图规范](references/user-figure-conventions.md)，参考图测量见 [修正后的测量记录](references/zotero-figure-study/reference-measurements-2026-10-22.md)。各内部模块保留上游来源说明；移动目录本身不保证在宿主技能列表中隐藏嵌套 `SKILL.md`。
+
+## 原机制图工作流
 
 `scientific-schematic-reconstruction` 是一个将 AI 生成图片、参考图片或已有科研示意图，拆解并使用 Blender、SVG 和 Python 等工具进行科学化重构的 Codex Skill。它把不可编辑、结构不严谨或比例不适合项目书的 AI 图片，转换为可解释、可编辑、可复现的科研机制图。
 
