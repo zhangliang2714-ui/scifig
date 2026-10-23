@@ -1,4 +1,4 @@
 interface:
-  display_name: "统一科研绘图"
+  display_name: "SciFig 科研绘图"
   short_description: "数据图、参考图风格学习与SVG/Blender机制图重构"
-  default_prompt: "使用 $scientific-figure-studio 判断数据图、机制图或混合图模式，检查参考与数据，生成可编辑图并完成视觉验收。"
+  default_prompt: "使用 $scifig 判断数据图、机制图或混合图模式，检查参考与数据，生成可编辑图并完成视觉验收。"

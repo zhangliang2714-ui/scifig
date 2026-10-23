@@ -1,12 +1,12 @@
-# 统一科研绘图 Skill
+# SciFig · 科研绘图
 
-本仓库现以 `scientific-figure-studio` 为统一入口，支持科研数据图、参考论文图的版式学习、SVG/Blender 机制图重构及混合多面板图。仓库地址保持不变。
+本仓库现以 `scifig` 为统一入口，支持科研数据图、参考论文图的版式学习、SVG/Blender 机制图重构及混合多面板图。SciFig 是 Scientific Figures 的缩写。仓库地址：https://github.com/zhangliang2714-ui/scifig 。
 
 ```text
-使用 $scientific-figure-studio 根据这些数据绘图，或先测量参考图再重构版式。
+使用 $scifig 根据这些数据绘图，或先测量参考图再重构版式。
 ```
 
-安装时将仓库目录命名为 `scientific-figure-studio`，放入 Codex 的 skills 目录。已有旧版安装请更新入口名称。原机制图功能保留在 `modules/scientific-schematic-reconstruction/`，其余模块负责数据分析与选图、出版级绘图和本地数据图工具。
+安装时将仓库目录命名为 `scifig`，放入 Codex 的 skills 目录。已有旧版安装请更新入口名称。原机制图功能保留在 `modules/scientific-schematic-reconstruction/`，其余模块负责数据分析与选图、出版级绘图和本地数据图工具。
 
 ## 2026-10-23 更新
 
@@ -40,7 +40,7 @@
 安装后，可以直接在 Codex 中调用：
 
 ```text
-使用 $scientific-schematic-reconstruction 重构这张科研机制图。
+使用 $scifig 重构这张科研机制图。
 ```
 
 典型任务是：提供一张 AI 生成的科研图片，要求 Skill 先分析图片中的科学区域，判断哪些部分用 SVG 重画、哪些部分用 Blender 建模，再将各部分重新组合成项目书风格的可编辑 SVG。

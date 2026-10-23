@@ -1,11 +1,11 @@
 ---
-name: scientific-figure-studio
+name: scifig
 description: Unified scientific figure workflow for deciding between experimental data plots, scientific schematic reconstruction, journal-style figure recreation, and hybrid multi-panel figures. Use when creating, revising, analyzing, or learning visual conventions from research figures, especially Nature or Science papers.
 metadata:
   short-description: Unified scientific data and schematic figure studio
 ---
 
-# Scientific Figure Studio
+# SciFig — Scientific Figures
 
 Use this skill as the single entry point for scientific figure work. First identify the requested deliverable and then select one or more modes; do not force every request into a data plot or a schematic.
 
