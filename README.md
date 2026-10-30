@@ -103,3 +103,5 @@
 详细流程见 [`references/workflow.md`](references/workflow.md)，失误复盘与验收标准见 [`references/qa-and-pitfalls.md`](references/qa-and-pitfalls.md)。
 
 三维重构的参数化建模、相机匹配、确定性随机和参考图叠加对照见 [`references/blender-reconstruction.md`](references/blender-reconstruction.md)。
+
+储氢材料机制图的 Blender + SVG 案例经验见 [`references/mg-h2-blender-case-2026-10-30.md`](references/mg-h2-blender-case-2026-10-30.md)，其中记录了 Alloy 密度控制、统一金属材质、主图与底部面板分工，以及版本 QA 方法。

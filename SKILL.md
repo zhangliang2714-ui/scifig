@@ -43,6 +43,8 @@ The specialized workflows are retained under `modules/`. Their nested `SKILL.md`
 - `modules/research-figure-studio/` for the local Excel/CSV-to-SVG tool workflow.
 - `modules/scientific-schematic-reconstruction/` for SVG/Python/Blender schematic reconstruction.
 
+For Blender-based material-mechanism schematics, read the [Mg–H₂ Blender reconstruction case notes](references/mg-h2-blender-case-2026-10-30.md). Use them for Alloy density control, unified metallic materials, Blender/SVG division of labor, and revision QA; their object names and version numbers are specific to that case.
+
 ## Deliverables
 
 Prefer editable source plus publication exports when possible: SVG/PDF for vector figures, PNG/TIFF at the requested resolution for raster delivery, and a short figure specification recording data sources, transformations, plotting choices, and unresolved limitations.
